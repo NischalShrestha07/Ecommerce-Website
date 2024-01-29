@@ -47,7 +47,7 @@ ul li a {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    padding: 40px;
 
 }
 
@@ -99,6 +99,10 @@ ul li a {
     grid-template-columns: auto auto auto auto;
 }
 
+.feature {
+    padding: 30px;
+}
+
 .feature h1 {
     display: flex;
     justify-content: center;
@@ -143,6 +147,8 @@ ul li a {
     background: white;
 }
 
+
+
 .grid1 span {
     /* text-align: center; */
     text-align: left;
@@ -153,4 +159,26 @@ ul li a {
     font-size: 25px;
     font-family: cursive;
 
+}
+
+.smart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background: rgb(243, 217, 217);
+}
+
+.smart p {
+    margin: 25px;
+    font-size: 35px;
+    /* font-weight: bold; */
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.smart h1 {
+    margin: 25px;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
 }
