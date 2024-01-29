@@ -110,6 +110,7 @@ ul li a {
 
 .grid1 img {
     width: 20vw;
+
 }
 
 .grid1 {
@@ -119,10 +120,17 @@ ul li a {
 }
 
 .grid1 p {
-    text-align: center;
+    /* text-align: center; */
+    text-align: left;
     font-weight: bold;
     font-size: 30px;
     font-family: cursive;
+}
+
+.feature h1 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 60px;
 }
 
 .imge {
@@ -130,13 +138,16 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
+    align-items: center;
     background: white;
 }
 
 .grid1 span {
     /* text-align: center; */
+    text-align: left;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 10px;
     font-weight: bold;
     font-size: 25px;
