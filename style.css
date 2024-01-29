@@ -15,13 +15,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
     list-style: none;
 }
 
@@ -29,7 +30,7 @@ ul li a {
     text-decoration: none;
     font-weight: bold;
     font-family: cursive;
-    font-size: 25px;
+    font-size: 45px;
 
 }
 
@@ -48,9 +49,32 @@ ul li a {
 
 .det1 {
     margin: 15px;
+    font-size: 45px;
 }
 
 .detail img {
     width: 50vw;
     margin-left: 100px;
+}
+
+.det1 h1 {
+    font-family: 'santserret', sans-serif;
+    margin-bottom: 15px;
+}
+
+.det1 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'santserret', sans-serif;
+    font-size: 35px;
+}
+
+.btn {
+    color: white;
+    background: orangered;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 30px;
 }
