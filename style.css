@@ -35,7 +35,12 @@ ul li a {
 }
 
 .main {
-    margin: 10px 25px;
+    /* margin: 10px 25px; */
+}
+
+.first {
+    padding: 15px;
+    background: rgb(219, 182, 188);
 }
 
 .detail {
@@ -69,7 +74,7 @@ ul li a {
     font-size: 35px;
 }
 
-.btn {
+.btn1 {
     color: white;
     background: orangered;
     padding: 15px;
@@ -77,4 +82,19 @@ ul li a {
     font-weight: bold;
     font-family: cursive;
     border-radius: 30px;
+    border: 3px solid black;
+}
+
+.btn1:hover {
+    background: rgb(45, 40, 40);
+    box-shadow: 4px 4px 4px black;
+}
+
+.threeImg {
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    grid-template-columns: auto auto auto auto;
 }
