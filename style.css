@@ -36,3 +36,21 @@ ul li a {
 .main {
     margin: 10px 25px;
 }
+
+.detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.det1 {
+    margin: 15px;
+}
+
+.detail img {
+    width: 50vw;
+    margin-left: 100px;
+}
