@@ -34,9 +34,8 @@ ul li a {
 
 }
 
-.main {
-    /* margin: 10px 25px; */
-}
+/* .main {
+} */
 
 .first {
     padding: 15px;
@@ -98,4 +97,49 @@ ul li a {
     align-items: center;
     gap: 65px;
     grid-template-columns: auto auto auto auto;
+}
+
+.feature h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-bottom: 3px solid orangered;
+    margin-bottom: 10vh;
+}
+
+.grid1 img {
+    width: 20vw;
+}
+
+.grid1 {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid1 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.imge {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.grid1 span {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: cursive;
+
 }
