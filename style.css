@@ -275,3 +275,19 @@ ul li a {
     gap: 50px;
     align-items: center;
 }
+
+.part1 h5 img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.part2 h5 img {
+    border-radius: 50%;
+    /* margin-left: 10px; */
+    width: 100px;
+}
+
+.part2 h5 {
+    margin-left: 10px;
+
+}
