@@ -203,9 +203,10 @@ ul li a {
     background: #374151;
     border: 1px solid black;
     padding: 20px;
-    line-height: 25px;
-    font-size: 15px;
+    /* line-height: 25px;
+    font-size: 15px; */
     margin-top: 40px;
+    font-size: 30px;
     border-radius: 10px;
 
 }
@@ -237,9 +238,10 @@ ul li a {
 .part2 {
     background: #374151;
     border: 1px solid black;
-    padding: 7px;
-    line-height: 25px;
-    font-size: 15px;
+    padding: 10px;
+    /* line-height: 25px; */
+    /* font-size: 15px; */
+    font-size: 30px;
     margin-top: 40px;
     border-radius: 10px;
 
@@ -274,6 +276,7 @@ ul li a {
     justify-content: center;
     gap: 50px;
     align-items: center;
+    padding: 50px;
 }
 
 .part1 h5 img {
@@ -290,4 +293,10 @@ ul li a {
 .part2 h5 {
     margin-left: 10px;
 
+}
+
+.imgCont {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto auto;
 }
