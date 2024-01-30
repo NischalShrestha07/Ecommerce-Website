@@ -300,3 +300,31 @@ ul li a {
     gap: 50px;
     grid-template-columns: auto auto auto auto auto;
 }
+
+.endBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    height: 40vh;
+    background: rgb(19, 172, 232);
+    padding: 30px;
+
+}
+
+
+.down img {
+    margin: 15px;
+    width: 200px;
+}
+
+.down h1 {
+    margin: 15px;
+    font-family: cursive;
+}
+
+.down p {
+    margin: 15px;
+    font-family: cursive;
+}
