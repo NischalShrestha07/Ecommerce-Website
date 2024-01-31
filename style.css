@@ -335,10 +335,39 @@ ul li a {
     font-size: 50px;
     margin: 15px;
 
+}
 
+.follow h1 {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 15px;
+
+}
+
+.red p {
+    margin: 15px;
+    font-size: 30px;
+    font-family: cursive;
+    padding: 5px;
+}
+
+.links {
+    margin: 15px;
+}
+
+.follow {
+    margin: 15px;
 }
 
 .links li {
     font-family: cursive;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.follow li {
+    font-family: cursive;
+    margin-left: 15px;
     font-size: 25px;
 }
