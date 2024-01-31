@@ -328,3 +328,17 @@ ul li a {
     margin: 15px;
     font-family: cursive;
 }
+
+.links h1 {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 15px;
+
+
+}
+
+.links li {
+    font-family: cursive;
+    font-size: 25px;
+}
